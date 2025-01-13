@@ -1,0 +1,11 @@
+https://www.python.org/downloads/windows/
+
+python -V
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+
+python 1chat.py
+python 2yoyaku.py
+python 3emb.py
+python 4kensaku.py
+
