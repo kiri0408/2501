@@ -1,3 +1,8 @@
 東日本リージョンのgpt4oにしてみる. 上限UP申請も。
 オプトオフしておく
 自宅APIキーが記載されたコードも一応準備
+
+netsh
+winhttp
+show proxy
+pause
