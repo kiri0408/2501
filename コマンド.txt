@@ -6,3 +6,6 @@ netsh
 winhttp
 show proxy
 pause
+
+インストーラをsharepointにおいて共有する。 事前にインストールしてもらう。
+https://ez-office.jp/blog/detail/20211102-01
