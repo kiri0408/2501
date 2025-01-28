@@ -14,18 +14,15 @@ model = AzureChatOpenAI( deployment_name="gpt-4o-3"
                         ,max_tokens= 100     # LLMからの回答の最大トークン数 (LLMからの回答が長くなってしまうことがあるので試行では上限を設定する)
                         )  
 
-# 3.embedding(埋め込み)用のﾓﾃﾞﾙを定義
+# embedding(埋め込み)用のﾓﾃﾞﾙを定義
 embeddings = AzureOpenAIEmbeddings(
                         azure_deployment="text-embedding-3-small-2"
                         ,openai_api_version="2024-06-01"
                     )   
 
-# 4.ベクトルDBをセット
-db = Chroma(persist_directory=r"./vector_db", embedding_function=embeddings)
-retriever = db.as_retriever()
-
-# 5.プロンプトの定義
+# 3.プロンプトの型を定義
 prompt = ChatPromptTemplate.from_template('''\
+あなたはフレンドリーなお笑い芸人です。
 以下の文脈だけを踏まえて質問に回答してください。
 
 文脈: """
@@ -35,20 +32,23 @@ prompt = ChatPromptTemplate.from_template('''\
 質問: {question}
 ''')
 
-# 6.chainの定義
+# 4.ベクトルDBを読み込み、検索器(retriever)として定義
+db = Chroma(persist_directory=r"./vector_db", embedding_function=embeddings)
+retriever = db.as_retriever()
+
+# 5.処理ステップを連結しchainの定義
 chain = (
     {"context": retriever, "question": RunnablePassthrough()}
-    | prompt
-    | model
-    | StrOutputParser()
+    | prompt  | model  | StrOutputParser()
 )
 
-# 7.処理開始時にchainをセット 
+# 6.メイン処理
+# 6.1 ブラウザを開いたときの処理
 @cl.on_chat_start
 def start():
     cl.user_session.set("chain", chain)
 
-# 8.メッセージ入力時
+# 6.2 メッセージ入力時
 @cl.on_message
 async def main(message: cl.Message):
 
