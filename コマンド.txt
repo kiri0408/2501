@@ -18,7 +18,7 @@
 参加にあたり、Pythonの環境セットアップをできれば事前にお願いします。
 手順書をお送りしますので、簡単な操作で10分程度で完了します。
 セットアップがうまくいかない場合は、サポートしますのでご連絡ください。
-
-
-
 ★rag chat修正コードあり。 
+
+shareihin metriever no mousikomi
+kuraudo 2gatu tukaeru?  wf kakunin 
