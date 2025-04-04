@@ -1,3 +1,17 @@
 
 https://aws.amazon.com/jp/events/awsome-day/awsome-day-online/?trkCampaign=awsome-day-online&trk=7edd5d8c-2205-4f12-85ae-099f2560238b&sc_channel=em#agenda
 
+コスト管理システムとExcelの切り分けは？  それぞれ何が対象？  
+
+コスト管理システムとExcelの連携はどうやっている？  手作業でデータ連携？
+
+どういう業務フロー？ （ 設計者は両方ともに入力している？  それぞれどう使ている？ ）  
+
+全面適用すれば、Excelは廃止？
+なぜExcelが残っているのか。
+部として最終的にどうしたいか（Excelを継続するのか）
+例えばExcelをやめ、システムに一本化するにはどうすればいいか。
+
+部の総意の要望として出してほしい （担当間でやり取りしているように見える） 
+
+それを職制含めた場で説明してほしい
