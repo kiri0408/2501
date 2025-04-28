@@ -15,3 +15,6 @@ https://aws.amazon.com/jp/events/awsome-day/awsome-day-online/?trkCampaign=awsom
 部の総意の要望として出してほしい （担当間でやり取りしているように見える） 
 
 それを職制含めた場で説明してほしい
+①LangChain完全入門　生成AIアプリケーション開発がはかどる大規模言語モデルの操り方
+②Azure OpenAI ServiceではじめるChatGPT/LLMシステム構築入門
+③LangChainとLangGraphによるRAG・AIエージェント［実践］入門
