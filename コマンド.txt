@@ -18,3 +18,18 @@ https://aws.amazon.com/jp/events/awsome-day/awsome-day-online/?trkCampaign=awsom
 ①LangChain完全入門　生成AIアプリケーション開発がはかどる大規模言語モデルの操り方
 ②Azure OpenAI ServiceではじめるChatGPT/LLMシステム構築入門
 ③LangChainとLangGraphによるRAG・AIエージェント［実践］入門
+
+・一旦、ローカルとしてファイル検索するだけならZのみでOK
+・Streamlitの使い方
+・効率よくファイルサーバをエンベディング ・・・ 結構時間かかる。 
+・どのEmbeddingタイプがいいのか。
+・いろいろなファイル種類に対応する。 
+・AdvancedRAGの実装
+・AIエージェントモデルを試す
+・文章中の画像に対応
+・チャンクの作成方法
+・Langchainの使い方
+・Langglaphの使い方
+
+
+
