@@ -1,7 +1,9 @@
 
 https://aws.amazon.com/jp/events/awsome-day/awsome-day-online/?trkCampaign=awsome-day-online&trk=7edd5d8c-2205-4f12-85ae-099f2560238b&sc_channel=em#agenda
 
+グローバルIP検索
 https://www.whatismyip.com/
-
 nslookup myip.opendns.com resolver1.opendns.com
 
+イベント
+https://cloudtech.connpass.com/event/351040/
