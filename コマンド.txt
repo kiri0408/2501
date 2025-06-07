@@ -7,3 +7,7 @@ nslookup myip.opendns.com resolver1.opendns.com
 
 イベント
 https://cloudtech.connpass.com/event/351040/
+
+
+自宅の環境で試したところ、vscode ClineのAIエージェントの補助でMCPの実装が少しわかってきました。 
+別途ご紹介できると思います。
