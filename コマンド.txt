@@ -11,12 +11,11 @@ https://cloudtech.connpass.com/event/351040/
 n8nですが、とりあえず自宅のPCにインストールして試してみました。
 以下のような簡単なものならマウス操作でサクッとできました。
 社内からでもAzureOpenAI APIは連携して試せると思います。
-（社内のSharepointなどに連携できるといいかもしれませんが、どうやるんでしょう・・・）   
+（他はどこのAPIやMCPに連携できるかですが・・・）   
 
 試した構成（添付図）
- ・n8nのAIエージェントからAzureOpenAI, wikipedia, Githubと連携
- ・チャット質問に対してwikipediaからのRAGのような感じでデータ取得
+ ・n8nのAIエージェントからAzureOpenAI API, wikipedia API, Github APIと連携
+ ・チャット質問に対してwikipediaからのRAGのようにデータ取得
  ・回答生成したものをGitHubへファイルとして保存
  
-n8nはソースコード公開かつ社内業務改善としての利用が許可されていますのでご利用いただいて問題ないと思います。
-
+n8nのライセンスでは社内業務改善としての利用OKのようです。
