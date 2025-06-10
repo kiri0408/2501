@@ -10,7 +10,8 @@ https://cloudtech.connpass.com/event/351040/
 
 n8nですが、とりあえず自宅のPCにインストールして試してみました。
 以下のような簡単なものならマウス操作でサクッとできました。
-APIが準備できれば社内でも試せると思います。
+AzureOpenAI APIが準備できれば社内からでも連携して試せると思います。
+（社内からですとTeamsやOfficeに連携できると良いのですが・・・）   
 
 試した構成（添付図）
  ・n8nのAIエージェントからAzureOpenAI, wikipedia, Githubと連携
