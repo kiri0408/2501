@@ -9,7 +9,7 @@ nslookup myip.opendns.com resolver1.opendns.com
 https://cloudtech.connpass.com/event/351040/
 
 n8nですが、とりあえず自宅のローカルPCにインストールして試してみました。
-ほぼDifyみたいな感じでマウス操作でできました。
+以下のような簡単なものならマウス操作でサクッとできました。
 APIが準備できれば社内でも試せると思います。
 
 試した構成（添付図）
