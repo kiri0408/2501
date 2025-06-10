@@ -8,6 +8,13 @@ nslookup myip.opendns.com resolver1.opendns.com
 イベント
 https://cloudtech.connpass.com/event/351040/
 
+n8nですが、とりあえず自宅のローカルPCにインストールして試してみました。
+ほぼDifyみたいな感じでマウス操作でできました。
+APIが準備できれば社内でも試せると思います。
 
-自宅の環境で試したところ、vscode ClineのAIエージェントの補助でMCPの実装が少しわかってきました。 
-別途ご紹介できると思います。
+試した構成（添付図）
+ ・n8nのAIエージェントからAzureOpenAI, wikipedia, Githubと連携
+ ・チャット質問に対してwikipediaからのRAGのような感じでデータ取得
+ ・回答生成したものをGitHubへファイルとして保存
+ 
+n8nはソースコード公開かつ社内業務改善としての利用が許可されていますのでご利用いただいて問題ないと思います。
