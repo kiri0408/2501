@@ -8,7 +8,7 @@ nslookup myip.opendns.com resolver1.opendns.com
 イベント
 https://cloudtech.connpass.com/event/351040/
 
-n8nですが、とりあえず自宅のローカルPCにインストールして試してみました。
+n8nですが、とりあえず自宅のPCにインストールして試してみました。
 以下のような簡単なものならマウス操作でサクッとできました。
 APIが準備できれば社内でも試せると思います。
 
