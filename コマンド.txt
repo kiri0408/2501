@@ -8,15 +8,14 @@ nslookup myip.opendns.com resolver1.opendns.com
 イベント
 https://cloudtech.connpass.com/event/351040/
 
-n8nですが、とりあえず自宅のPCにインストールして試してみました。簡単なものならマウス操作でできました。
-社内からでもAzureOpenAI APIと連携してエージェントを試せると思います。
-
+n8nですが、とりあえず自宅のPCにインストールし試したところ、簡単なものならマウス操作ですぐにできました。
 試した構成（添付ファイル参照）
- ・エージェントからAzureOpenAI, wikipedia, Githubと連携
- ・チャット質問に対してwikipediaからのRAGのようにデータ取得
- ・回答生成したものをGitHubへファイルとして保存
+  ・AIエージェントからAzureOpenAI, wikipedia, Githubと連携
+  ・チャット質問に対してwikipediaからのRAGのようにデータ取得し、生成した回答をGitHubへファイルとして保存
  
-n8nのライセンスでは社内業務改善としての利用OKのようです。
+社内からでもAzureOpenAI APIと連携してエージェントを動かせると思います。
+n8nのライセンスは社内利用OKのようです。
 
 
-普通のコーディングの方でも、エージェントからMCPへの連携方法が分かりましたので、別途ご説明できると思います。
+Pythonの方でも、MCPサーバ立ち上げとAIエージェントから連携する実装方法が分かってきました。
+基本型は結構簡単ですので、別途ご説明できると思います。 
