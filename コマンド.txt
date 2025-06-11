@@ -1,20 +1,27 @@
 
-https://aws.amazon.com/jp/events/awsome-day/awsome-day-online/?trkCampaign=awsome-day-online&trk=7edd5d8c-2205-4f12-85ae-099f2560238b&sc_channel=em#agenda
+ご無沙汰しております。'24/12の技「ク」＠長で受講させていただいた〇〇です。
 
-グローバルIP検索
-https://www.whatismyip.com/
-nslookup myip.opendns.com resolver1.opendns.com
+さて、技「A」ではAI検証環境としてAzure t-Zを使用したいと考えておりますが
+不明点がありご教示いただけば幸いです。  
 
-イベント
-https://cloudtech.connpass.com/event/351040/
+不明点①
+Azure t-Z は イントラネット延長なしで AzureOpenAI APIというPaaSのみ利用します。
+このAPIに機密データをやり取りしますが、クラウド側にデータは保存されません。
+このような利用方法でも検査した方がいいでしょうか。
+事務局に確認したほうがいいでしょうか。
 
-n8nですが、とりあえず自宅PC & Azureで試したところ、以下の簡単なものならローコードですぐにできました。
-  ・AIエージェントからAzureOpenAI, wikipedia, Githubと連携
-  ・チャット質問に対してwikipediaからのRAGのようにデータ取得し、生成した回答をGitHubへファイルとして保存
- 
-ですので、社内のPCでもn8nをインストールすれば AzureOpenAI APIと連携してエージェントを動かせると思います。
-（n8nは基本的に商用フリーで社内利用であればOKのようです。）
-ただし、私はPython派なのでn8nはこれくらいにしておきます。 
+不明点②
+将来的にイントラネット延長したい場合に検証環境としては非常に高額になることがわかりました。
 
-Pythonの方でもMCPサーバ立ち上げとそれをLangchainのAIエージェントと連携させる実装方法が分かってきました。
-基本型は結構簡単ですので、別途ご説明できると思います。 
+●●ではAzureをイントラネット延長で使用されていますでしょうか。
+その場合、その環境に、AI検証環境を同居させていただくようなことは難しいですよね？  
+
+
+
+
+
+プロジェクトの概念？
+ＬＡＮ延長はプロジェクトごと？
+請求書送付先は？ 紙？
+
+
